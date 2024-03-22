@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pong Game</title>
+</head>
+<body>
+   
+
+    <div class="game-container">
+        <div class="paddle" id="leftPaddle"></div>
+        <div class="paddle" id="rightPaddle"></div>
+        <div class="ball" id="ball"></div>
+        <div class="score" id="score">0 - 0</div>
+        
+    </div>
+    <div class="menu">
+        <label for="difficulty">Choose Difficulty :</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button id="startButton">Start Game</button>
+        <button id="restart">Restart Game</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
